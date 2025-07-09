@@ -64,6 +64,7 @@ pip install -U pip
 pip install rknn-toolkit-lite2 ultralytics ffmpeg gpiod subprocess numpy threading
 
 cp "$current_path/Project/run.py" .
+cp "$current_path/Project/best-rk3588-04_rknn_model" .
 cp "$current_path/Project/systemd/py_autostart.service" /etc/systemd/system/
 systemctl daemon-reload
 systemctl enable py_autostart.service
