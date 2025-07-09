@@ -1,5 +1,5 @@
 # FightDectELF2
-Fight Detection System based on Feling ELF2
+Fight Detection System based on Forlinx ELF2
 
 Self-packaged RootFS with kernel located in boot_fs directory
 
