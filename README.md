@@ -1,7 +1,9 @@
 # FightDectELF2
 Fight Detection System based on Feling ELF2
 
-Usage:
+Self-packaged RootFS with kernel located in boot_fs directory
+
+## Usage:
 ```shell
 git clone https://github.com/SivonZn/FightDectELF2.git
 cd FightDectELF2
