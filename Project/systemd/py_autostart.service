@@ -1,0 +1,17 @@
+[Unit]
+Description=Python Script AutoStart Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/Project
+# ExecStartPre=export QT_QPA_PLATFORM=eglfs
+ExecStart=/root/Project/yolo/bin/python run.py
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=py_autostart
+
+[Install]
+WantedBy=multi-user.target
